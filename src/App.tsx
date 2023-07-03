@@ -15,10 +15,10 @@ function App() {
         </GridItem>
 
         <Show above="lg">
-          <GridItem gridArea="aside" bg="papayawhip">aside</GridItem>
+          <GridItem gridArea="aside">aside</GridItem>
         </Show>
 
-        <GridItem gridArea="main" bg="pink">
+        <GridItem gridArea="main">
           <GameGrid />
         </GridItem>
       </Grid>
